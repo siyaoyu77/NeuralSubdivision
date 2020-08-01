@@ -20,7 +20,7 @@ Pytorch:1.3.1
 
 存在问题：1）目前只适用于三角网格 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）当三角面片的 aspect ratios 或者 area不符合训练数据时，会出现问题（如4.3）。<br>
-            因为当面片的某一条边长过小时，拓扑结构仍旧采取中点划分，此时会放大网络所预测顶点位置的误差，所以当迭代次数增加时，也出现了同样的问题。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为当面片的某一条边长过小时，拓扑结构仍旧采取中点划分，此时会放大网络所预测顶点位置的误差，所以当迭代次数增加时，也出现了同样的问题。
 
 ## 4.论文效果<br>
 下述所有展示图片都在result_img文件夹里，相关的obj文件在result_obj文件夹里，其中obj文件后缀_subd0意味着输入，_subdi意味着迭代i次.
