@@ -21,7 +21,7 @@ System:Win10
 Python:3.7.8
 Pytorch:1.3.1
 ```
-此篇文章的效率与输入顶点数目有关(阶段一采取python循环，故效率低)：
+此篇文章的效率与输入顶点和面片的数目有关(阶段一采取python循环，故效率低)：
 | number of vertex,  number of face | stage1 | stage2 |
 | :------------------: | :------: | :------: |
 | 200, 396 | 1.45s |0.36s |
