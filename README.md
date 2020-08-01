@@ -11,7 +11,7 @@ Github：https://github.com/HTDerekLiu/neuralSubdiv <br>
 
 存在问题：1）目前只适用于三角网格 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）当三角面片的 aspect ratios 或者 area不符合训练数据时，会出现问题（如4.3）。<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为当面片的某一条边长过小时，拓扑结构仍旧采取中点划分，此时会放大网络所预测顶点位置的误差，所以当迭代次数增加时，也出现了同样的问题。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;因为当面片的某一条边长过小时，拓扑结构仍旧采取中点划分，此时会放大网络所预测顶点位置的误差，所以当迭代次数增加时，也&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出现了同样的问题。
 
 ## 3.效率<br>
 ```
