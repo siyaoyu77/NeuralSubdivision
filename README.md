@@ -21,10 +21,10 @@ System:win10
 Python:3.7.8
 Pytorch:1.3.1
 ```
-此篇文章的效率与输入顶点数目有关：
-| number of vertex | stage1 | stage2 |
-| --------- | ------ | ------ |
-| 内容 | 内容 |内容 |
+此篇文章的效率与输入顶点数目有关：| number of vertex | stage1 | stage2 |
+                               | --------- | ------ | ------ |
+                               | 内容 | 内容 |内容 |
+
 
 ## 4.论文效果<br>
 下述所有展示图片都在result_img文件夹里，相关的obj文件在result_obj文件夹里，其中obj文件后缀_subd0意味着输入，_subdi意味着迭代i次.
