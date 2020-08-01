@@ -30,6 +30,7 @@ Github：https://github.com/HTDerekLiu/neuralSubdiv <br>
     <img src=./result_img/bunny.png  height = "290"/>
     <img src=./result_img/bunny_1.png  height = "290"/>
 </center>
+
 ### 4.3 当三角面片的 aspect ratios 或者 area不符合训练数据时，会出现问题
 <center class="half">
     <img src=./result_img/fish.png  height = "290"/>
