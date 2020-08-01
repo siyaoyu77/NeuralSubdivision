@@ -38,7 +38,7 @@ Pytorch:1.3.1
 </center>
 
 #### 4.3 当三角面片的 aspect ratios 或者 area不符合训练数据时，会出现问题
-<center class="half">
+<div  align="center"> 
     <img src=./result_img/fish.png  height = "290"/>
     <img src=./result_img/horse.png  height = "290"/>
-</center>
+</div>
