@@ -7,11 +7,12 @@ Github：https://github.com/HTDerekLiu/neuralSubdiv <br>
 ```
 CPU:Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
 GPU:GeForce GTX 1060 6GB
-system:win10
+System:win10
 Python:3.7.8
 Pytorch:1.3.1
 ```
-
+| 内容 | 内容 |
+| ------ | ------ |
 
 ## 3.论文概述<br>
 此篇文章可以将coarse triangle mesh 上采样成finer triangle mesh.
