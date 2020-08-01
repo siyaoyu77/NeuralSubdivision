@@ -17,7 +17,7 @@ Github：https://github.com/HTDerekLiu/neuralSubdiv <br>
 ```
 CPU:Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
 GPU:GeForce GTX 1060 6GB
-System:win10
+System:Win10
 Python:3.7.8
 Pytorch:1.3.1
 ```
